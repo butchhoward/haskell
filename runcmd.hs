@@ -11,7 +11,10 @@ main = do
            }
 
     putStrLn "stdout:"
-    hGetContents hout >>= putStr
+    s <- hGetContents hout
+
+    let sl = lines s
+    putStrLn $ "The Lines:" ++ show sl
     
     exitCode <- waitForProcess jHandle
     putStrLn $ "Exit code: " ++ show exitCode
