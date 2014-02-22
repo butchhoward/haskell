@@ -10,8 +10,8 @@ main = do
            , std_err = CreatePipe 
            }
 
-    putStrLn "First line of stdout:"
-    hGetLine hout >>= putStrLn
-
+    putStrLn "stdout:"
+    hGetContents hout >>= putStr
+    
     exitCode <- waitForProcess jHandle
     putStrLn $ "Exit code: " ++ show exitCode
