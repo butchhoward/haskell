@@ -5,7 +5,7 @@ myLast :: [a] -> a
 myLast [x] = x
 myLast (_:xs) = myLast xs
 
-main = print d
+main = print testPasses
 	where
-	d = myLast[1,2,3,4]
+		testPasses = 4 == myLast[1,2,3,4]
 
