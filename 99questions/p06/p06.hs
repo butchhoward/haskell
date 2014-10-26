@@ -17,6 +17,8 @@ main = do
 		then putStrLn "pass"
 		else putStrLn "fail"
 	-- Why does this one error out???
+	-- answer: because isPalindrome is defined to require as using a list of objects which derive from Eq
+	--         the empty list is not a list of Eq objects
 	--if isPalindrome []
 	--	then putStrLn "pass"
 	--	else putStrLn "fail"

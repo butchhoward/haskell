@@ -1,0 +1,9 @@
+module Main where
+
+howManyLisghtSabersDoYouOwn :: name -> count
+howManyLisghtSabersDoYouOwn "Zach" = 18
+howManyLisghtSabersDoYouOwn _ = 0
+
+main = print TestPasses
+     where
+	TestPasses = 18 == howManyLisghtSabersDoYouOwn "Zach"
