@@ -18,46 +18,46 @@ executable 99questions_p00
   main-is:			p00/p00.hs
   hs-source-dirs:	99questions
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base
 
 executable 99questions_p01
   main-is:			p01/p01.hs
   hs-source-dirs:	99questions
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base
 
 executable 99questions_p02
   main-is:			p02/p02.hs
   hs-source-dirs:	99questions
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base
 
 executable 99questions_p03
   main-is:			p03/p03.hs
   hs-source-dirs:	99questions
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base
 
 executable 99questions_p04
   main-is:			p04/p04.hs
   hs-source-dirs:	99questions
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base
 
 executable 99questions_p05
   main-is:			p05/p05.hs
   hs-source-dirs:	99questions
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base
 
 executable 99questions_p06
   main-is:			p06/p06.hs
   hs-source-dirs:	99questions
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base
 
 executable 99questions_p07
   main-is:			p07/p07.hs
   hs-source-dirs:	99questions
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base
